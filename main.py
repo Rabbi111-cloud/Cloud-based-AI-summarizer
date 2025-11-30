@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1MPrtYfPtawRjTR_8vSZTg2blvpcvVbty
 """
 
-!pip install fastapi uvicorn nest_asyncio requests
-
-import os
-os.environ["OPENROUTER_API_KEY"] = "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"
-
 from fastapi import FastAPI
 import requests
 import os
